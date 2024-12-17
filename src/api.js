@@ -7,6 +7,13 @@ export const getArticles = () => {
     })
 }
 
+export const getArticle = (id) => {
+
+    return axios.get(`https://backend-nc-project-w9aw.onrender.com/api/articles/${id}`).then(({data}) => {
+        return data
+    })
+}
+
 
 
 export default getArticles
