@@ -17,7 +17,7 @@ const { id } = useParams();
 
     const newComment = {
         body: commentBody,
-        author: author
+        author: "grumpy19"
     };
 
     instance.post(`/articles/${id}/comments`, newComment)
@@ -36,7 +36,7 @@ const { id } = useParams();
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="comment-body">Add a comment: </label>
+        <label htmlFor="comment-body">Add a comment for grumpy19: </label>
         <br/>
         <textarea
         id="comment-body"
@@ -46,16 +46,7 @@ const { id } = useParams();
         />
         <br />
 
-        <label htmlFor="select-author"> Select an author: </label>
-        <br />
-        <select id="select-author" value={author}  onChange={(e) => setAuthor(e.target.value)} required>
-  <option value="tickle122">tickle122</option>
-  <option value="jessjelly">jessjelly</option>
-  <option value="happyamy2016">happyamy2016</option>
-  <option value="grumpy19">grumpy19</option>
-  <option value="weegembump">weegembump</option>
-  <option value="cooljmessy">cooljmessy</option>
-</select>
+
 
 <br/>
         <input type="submit" value="Submit" />

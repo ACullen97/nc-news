@@ -11,12 +11,11 @@ function ViewArticle() {
 
   useEffect(() => {
     getArticle(id).then((articleData) => {
-     console.log(articleData, "articleData");
       setArticle(articleData);
     });
   }, [id]);
 
- // console.log(article, "singleArticle");
+
 
   return (
     <>
