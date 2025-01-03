@@ -7,8 +7,6 @@ function CommentCard({comment}){
   const [message, setMessage] = useState("");
   const [commentId, setCommentId] = useState(comment.comment_id);
 
-
-
   const handleDeleteComment = (e) => {
     setCommentId(comment["comment_id"]);
     
@@ -24,7 +22,6 @@ function CommentCard({comment}){
         setMessage("Failed to delete comment!")
     })
   };
-    
 
 if(comment.author === "grumpy19"){
     return(
@@ -32,7 +29,6 @@ if(comment.author === "grumpy19"){
         <li className="item-card">
         <div className="item-card-info">
             <p>{comment.body}</p>
-        
             <h3>Votes: {comment["votes"]}</h3>
             <h5>Author: {comment["author"]}</h5>
             <p>Posted: {comment["created_at"]}</p>

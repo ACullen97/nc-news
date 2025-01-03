@@ -12,9 +12,6 @@ function TopicsContainer() {
     });
   }, []);
 
-  console.log(selectedTopic);
-
-
   return (
     <>
       <h3>Viewing topic: {selectedTopic}</h3>
