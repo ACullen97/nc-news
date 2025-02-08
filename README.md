@@ -1,6 +1,6 @@
 # NC News Articles
 
-This project contains a Reddit-style articles page where users can select topics, view/filter articles, vote and comment.
+This project contains a Reddit-style website where users can select topics, view/filter articles, vote and comment on articles.
 
 ### Instructions
 
