@@ -4,13 +4,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+main {
+  margin: 0px 100px;
+}
+
+header{
+  background-color: rgb(15, 15, 175);
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+}
+
+.article-container{
+
+  color: rgb(15, 15, 175);
+
+}
+
+.comment-input{
+  padding: 5px 10px;
+  color: rgb(15, 15, 175);
+}
+
+#comment-body{
+  width: 100%;
+}
+
+.all-articles-header{
+  margin: 15px 0px;
+  color: rgb(15, 15, 175);
+}
+
+header:link{
+  color: #fff;
+}
+
+nav:link{
+  color: #fff;
+}
 
 body{
   font-family: Arial, sans-serif;
   background-color: #d6daff;
   color: #333;
   line-height: 1.6;
-  padding: 20px;
+  padding: 0px;
 }
 
 .item-list{
@@ -24,8 +62,8 @@ body{
 .item-list-grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-  gap: 20px;
-  padding: 20px;
+  gap: 0px;
+  padding: 0px;
   list-style: none;
 }
 
@@ -38,6 +76,19 @@ body{
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
   width: 100%;
+  margin: 10px 0px;
+}
+
+.item-card-static {
+
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  width: 100%;
+  margin: 10px 0px;
 }
 
 .item-card:hover {
@@ -54,6 +105,7 @@ body{
 
 .item-card-info {
   padding: 15px;
+  color: rgb(15, 15, 175);
 }
 
 .item-card-image img {
@@ -67,6 +119,7 @@ body{
   font-weight: bold;
   color: #2c3e50;
 }
+
 ul {
   list-style: none;
   padding: 0;
@@ -76,3 +129,17 @@ li {
   margin: 0;
   padding: 0;
 } 
+
+.footer-text{
+  margin: 10px 42px;
+}
+
+
+
+.topics-nav-buttons{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ margin: 10px 0px;
+ width: 100%;
+ gap: 10px;
+}

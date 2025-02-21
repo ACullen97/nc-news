@@ -6,7 +6,7 @@ function Header() {
     <h1>NC News</h1>
 
     <nav>
-         <Link to="/">Home</Link> | <Link to="/topics">Topics</Link>
+         <Link style={{color: '#fff'}} to="/">Home</Link>  &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; <Link style={{color: '#fff'}} to="/topics">Topics</Link>
     </nav>
   
     </header>

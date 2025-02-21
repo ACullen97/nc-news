@@ -8,8 +8,8 @@ function SingleArticleCard({article}){
 
     return(
         <>
-        <h1>View Article</h1>
-        <div className="item-card">
+        <h2 className="all-articles-header">View Article</h2>
+        <div className="item-card-static">
           <div className="item-card-info">
             <h2>{article.title}</h2>
             <br />

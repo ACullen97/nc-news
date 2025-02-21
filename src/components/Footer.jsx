@@ -1,7 +1,7 @@
 function Footer() {
     return(
 
-        <p>© 2024 NC News</p>
+        <p className="footer-text">© 2024 NC News</p>
     )
 }
 

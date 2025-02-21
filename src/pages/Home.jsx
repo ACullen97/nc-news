@@ -4,7 +4,7 @@ import ArticleContainer from "../components/ArticleContainer";
 function Home() {
   return (
     <>
-      <h2>All Articles</h2>
+      <h2 className={"all-articles-header"}>All Articles</h2>
       <ArticleContainer/>
     </>
   );

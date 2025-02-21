@@ -14,13 +14,15 @@ function TopicsContainer() {
 
   return (
     <>
+    <div className="topics-nav">
       <h3>Viewing topic: {selectedTopic}</h3>
-      <div>
+      </div> 
+      <div className="topics-nav-buttons">
         <button value="coding" onClick={(e) => setSelectedTopic(e.target.value)}>Coding</button>
         <button value="cooking" onClick={(e) => setSelectedTopic(e.target.value)}>Cooking</button>
         <button value="football" onClick={(e) => setSelectedTopic(e.target.value)}>Football</button>
       </div>
-      
+  
       <div className="item-list">
         <ul className="item-list-grid">
           {articles.map((article, index) => (

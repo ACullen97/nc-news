@@ -4,7 +4,7 @@ import TopicsContainer from "../components/TopicsContainer";
 function Topics() {
   return (
     <>
-      <h2>Topics</h2>
+      <h2 className="all-articles-header">Topics</h2>
       <TopicsContainer/>
     </>
   );

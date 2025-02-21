@@ -35,6 +35,7 @@ const { id } = useParams();
 
   return (
     <>
+    <div className="comment-input">
       <form onSubmit={handleSubmit}>
         <label htmlFor="comment-body">Add a comment for grumpy19: </label>
         <br/>
@@ -44,13 +45,16 @@ const { id } = useParams();
         onChange={(e) => setCommentBody(e.target.value)}
         required
         />
+
         <br />
 
 
 
-<br/>
+
         <input type="submit" value="Submit" />
       </form>
+
+      </div>
 
       {message && <p>{message}</p>}
     </>
