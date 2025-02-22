@@ -8,11 +8,17 @@ main {
   margin: 0px 100px;
 }
 
+#root{
+  width: 100%;
+}
+
 header{
   background-color: rgb(15, 15, 175);
   text-align: center;
   color: #fff;
   padding: 15px;
+  width: 100%;
+
 }
 
 .article-container{
@@ -49,6 +55,8 @@ body{
   color: #333;
   line-height: 1.6;
   padding: 0px;
+  display: block;
+
 }
 
 .item-list{
@@ -120,6 +128,11 @@ body{
   color: #2c3e50;
 }
 
+.img-container{
+  width: 100%;
+  object-fit: contain;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -129,6 +142,10 @@ li {
   margin: 0;
   padding: 0;
 } 
+
+.error-msg{
+  padding: 20px 0px;
+}
 
 .footer-text{
   margin: 10px 42px;
